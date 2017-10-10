@@ -1,12 +1,10 @@
 
 .main-nav {
-	width: 2000px;
+	width: auto;
 	height: 100px;
 	background-color: lightgrey;
 	position: fixed;
-	margin: 0;
-	padding: 0;
-
+	margin: -10px;
 }
 
 
@@ -14,13 +12,14 @@
 	width: 150px;
 	height: 75px;
 	background-color: black;
+	margin-top: 3xpx;
 	margin-left: 50px;
 	float: left;
 	display: inline;
 	font-family: helvetica, san-serif;
 	text-transform: uppercase;
 	color: white;
-	align-content: center;
+	text-align: center;
 }
 
 .logo-nav{
