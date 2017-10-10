@@ -1,6 +1,6 @@
 
 .main-nav {
-	width: auto;
+	width: screen.width;
 	height: 100px;
 	background-color: lightgrey;
 	position: fixed;
@@ -9,7 +9,7 @@
 
 
 .logobox{
-	width: 400px;
+	width: 200px;
 	height: 75px;
 	background-color: black;
 	margin-left: 50px;
@@ -36,8 +36,6 @@
 	padding-right: 20px;
 	float: right;
 	text-transform: uppercase;
-	display: inline-block;
-
 }
 
 .login-btn{
@@ -48,4 +46,15 @@
 	border-radius: 5px;
 	font-size: 10px;
 	font-family: helvetica, san-serif;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a{
+	display: block;
+	width: 50px;
 }
