@@ -1,6 +1,7 @@
 
 .main-nav {
-	height: 200px;
+	width: auto;
+	height: 100px;
 	background-color: grey;
 	position: fixed;
 
@@ -9,11 +10,13 @@
 
 .logobox{
 	width: 400px;
-	height: 125px;
+	height: 75px;
 	background-color: black;
 	margin-left: 50px;
 	float: left;
 	display: inline;
+	font-family: helvetica, san-serif;
+	text-transform: uppercase;
 }
 
 .logo-nav{
