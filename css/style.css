@@ -36,7 +36,7 @@ ul.nav-menu{
 	margin-right: 10px;
 }
 
-li a{
+li{
 	display: inline;
 	float: right;
 	width: 60px;
@@ -44,7 +44,10 @@ li a{
 	padding: 20px;
 	font-family: helvetica, sans-serif;
 	font-size: 13px;
-	text-transform: uppercase;
+	text-transform: uppercase;	
+}
+
+a{
 	text-decoration: none;
 }
 
@@ -61,7 +64,7 @@ li.login-btn{
 	background-color: lightgrey;
 	clear: both;
 	width: 100%;
-	height: 350px;
+	height: 500px;
 }
 
 
