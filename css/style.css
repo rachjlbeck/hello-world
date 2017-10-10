@@ -4,6 +4,8 @@
 	height: 100px;
 	background-color: lightgrey;
 	position: fixed;
+	margin: 0;
+	padding: 0;
 
 }
 
@@ -37,6 +39,9 @@
 	padding-right: 20px;
 	float: right;
 	text-transform: uppercase;
+	background-color: yellow;
+	list-style-type: none;
+	display: block;
 }
 
 .login-btn{
@@ -55,8 +60,3 @@ ul{
 	padding: 0;
 }
 
-li a{
-	display: block;
-	width: 50px;
-	list-style-type: none;
-}
