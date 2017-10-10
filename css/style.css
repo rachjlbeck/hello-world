@@ -7,10 +7,19 @@
 }
 
 
+.logobox{
+	width: 400px;
+	height: 125px;
+	background-color: black;
+	margin-left: 50px;
+	float: left;
+	display: inline;
+}
+
 .logo-nav{
 	width: auto;
 	height: 50px;
-	display: block;
+	display: inline;
 	float: left;
 	padding-left: 50px;
 }
