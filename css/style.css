@@ -1,6 +1,6 @@
 
 .main-nav {
-	width: screen.width;
+	width: 2000px;
 	height: 100px;
 	background-color: lightgrey;
 	position: fixed;
@@ -9,7 +9,7 @@
 
 
 .logobox{
-	width: 200px;
+	width: 150px;
 	height: 75px;
 	background-color: black;
 	margin-left: 50px;
@@ -18,6 +18,7 @@
 	font-family: helvetica, san-serif;
 	text-transform: uppercase;
 	color: white;
+	align-content: center;
 }
 
 .logo-nav{
@@ -57,4 +58,5 @@ ul{
 li a{
 	display: block;
 	width: 50px;
+	list-style-type: none;
 }
