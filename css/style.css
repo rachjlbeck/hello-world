@@ -33,7 +33,7 @@ ul.nav-menu{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 
 li a{
@@ -41,10 +41,20 @@ li a{
 	float: right;
 	width: 60px;
 	color: orange;
-	padding: 10px;
+	padding: 20px;
 	font-family: helvetica, sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
+}
+
+li.login-btn{
+	width: 60px;
+	float: right;
+	display: inline;
+	color: black;
+	background-color: grey;
+	border-radius: 5px;
+	padding: 20px;
 }
 
 .introbox{
