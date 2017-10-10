@@ -2,7 +2,7 @@
 .main-nav {
 	width: auto;
 	height: 100px;
-	background-color: grey;
+	background-color: lightgrey;
 	position: fixed;
 
 }
@@ -17,6 +17,7 @@
 	display: inline;
 	font-family: helvetica, san-serif;
 	text-transform: uppercase;
+	color: white;
 }
 
 .logo-nav{
