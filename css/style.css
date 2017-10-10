@@ -9,8 +9,8 @@
 .navbar{
 	width: 80%;
 	height: 50px;
-	vertical-align: center;
-	background-color: red;
+	margin: auto;
+	display: block;
 }
 
 
@@ -36,7 +36,7 @@ ul.nav-menu{
 	margin-right: 10px;
 }
 
-li a{
+li{
 	display: inline;
 	float: right;
 	width: 60px;
@@ -45,15 +45,14 @@ li a{
 	font-family: helvetica, sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 li.login-btn{
 	width: 60px;
-	float: right;
-	display: inline;
 	color: black;
 	background-color: grey;
-	border-radius: 5px;
+	border-radius: 15px;
 	padding: 20px;
 }
 
