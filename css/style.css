@@ -1,13 +1,4 @@
 
-/*
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
-}
-*/
 
 .main-nav{
 	width: auto;
@@ -43,3 +34,8 @@ li a {
 	margin-top: -30px;
 }
 
+.introbox{
+	width: 100%;
+	height: 400px;
+	background-color: #00BDCD;
+}
